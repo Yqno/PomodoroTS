@@ -25,7 +25,7 @@ class PorodomoTimer {
               // Hier können Sie eine Alarmfunktion hinzufügen, um den Benutzer zu benachrichtigen
               const alarmSound = new Audio('path/to/alarm/sound.mp3');
               alarmSound.play();
-              navigator.vibrate(3000); // Vibriert das Gerät für 1 Sekunde
+              navigator.vibrate(3000); // Vibriert das Gerät für 3 Sekunde
             }
           }, this.timerIntervals);
         }
